@@ -1,0 +1,8 @@
+export const NAME = "Name"
+export const PHONE = "Phone"
+export const EMAIL = "Email"
+export const GENDER = "Gender"
+export const DOB = "DOB"
+export const UNIVERSITY = "University"
+export const FACULTY = "Faculty"
+export const COURSE = "Course"

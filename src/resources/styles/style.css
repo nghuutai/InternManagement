@@ -1,0 +1,299 @@
+.wrapper {
+    margin: auto;
+    width: 100%;
+}
+
+.root {
+    width: 100%;
+    margin-top: 20px;
+    height: 100%;
+    min-width: 550px;
+}
+.table {
+    min-width: 500px;
+    margin-left: 0px;
+}
+.tableWrapper {
+    overflow: auto;
+    height: 450px;
+    min-width: 550px;
+}
+
+
+.columnName {
+    min-width: 190px;
+}
+.tableRow:nth-child(even) {
+    background-color: #ebe7e7;
+}
+.iconAddHover {
+    margin: 10px;
+    color: cadetblue
+}
+
+.rootPagination {
+    flex-shrink: 0
+}
+
+.buttonAttach {
+    width: 125px;
+    height: 32px;
+    background-color: #00a0af;
+    font-size: 12.5px;
+    color: #fff;
+    float: right;
+}
+
+.search {
+    min-width: 250px;
+    max-height: 32px;
+    margin-right: 20px
+}
+.inputSearch {
+    padding-left: 20px;
+    height: 30px;
+    width: 220px;
+}
+.icon {
+    height: 30px;
+    padding-right: 10px
+}
+
+.spacer {
+    flex: 1 1 100px;
+}
+
+.appBar {
+    width: 730px;
+    margin-left: 50px;
+}
+.tabChild {
+    width: 425px;
+}
+
+.textField {
+    margin-left: 10px;
+    margin-right: 0px;
+    width: 220px;
+}
+
+.small {
+    color: red;
+    margin-left: 0px;
+}
+.coverSmall {
+    width: 170px;
+}
+
+.header {
+    margin-top: 20px;
+    margin-right: 220px;
+    margin-bottom: 0px;
+    width: 400px;
+    
+}
+.header1 {
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.menu {
+    width: 200px;
+}
+
+.btnAdd {
+    margin-top: 30px;
+    margin-left: 630px;
+    display: flex;
+}
+.button{
+    width: 160px;
+    height: 40px;
+}
+.buttonView{
+    width: 85px;
+    height: 32px;
+    background-color: #00a0af;
+    font-size: 12.5px;
+    color: #fff;
+}
+.space {
+    margin-right: 10px
+}
+.title {
+    padding-top: 35px;
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.loading {
+    text-align: center
+}
+.react-loading {
+
+    display: inline-block;
+}
+.dropzone {
+    width: 600px;
+    height: 350px;
+}
+
+.typography {
+    padding-left: 20px;
+    width: 100%
+}
+
+
+.grid {
+
+    height: 50px;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 10px;
+    float: right;
+}
+
+.btnEdit {
+    float: right;
+    margin-top: 17px;
+    height: 20px;
+    display: flex;
+}
+
+
+.titleToeic {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.errorDropFile {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: red;
+    font-size: 13px;
+    font-family: 'Segoe UI Tahoma';
+    display: block;
+}
+
+.multi-select {
+    width: 32px;
+    padding-right: 120px;
+    padding-bottom: 15px;
+}
+
+
+@media (max-width:700px) {
+    .appBar {
+        width: 700px;
+        margin-left: 50px;
+    }
+    .tabChild {
+        width: 300px;
+    }
+
+    .grid {
+        margin-right: 30px;
+        height: 50px;
+        display: flex;
+        padding-left: 240px;
+        margin-top: 30px;
+    }
+    .btnEdit {
+        margin-top: 17px;
+        height: 20px;
+        display: flex;
+    }
+    .textField {
+        margin-left: 10px;
+        margin-right: 0px;
+        width: 140px;
+        /* width: 200px; */
+    }
+}
+
+@media (max-width: 600px) {
+    .appBar {
+        width: 430px;
+        margin-left: 50px;
+    }
+    .tabChild {
+        width: 210px;
+    }
+
+    .grid {
+        margin-right: 30px;
+        height: 50px;
+        display: flex;
+        padding-left: 210px;
+        margin-top: 30px;
+    }
+
+    .btnEdit {
+        margin-top: 17px;
+        padding-left: 18px;
+        height: 20px;
+        display: flex;
+    }
+    .textField {
+        margin-left: 10px;
+        margin-right: 0px;
+        width: 200px;
+    }
+}
+
+.modal {
+    margin-top: 30px;
+}
+
+/* FOR SIDEBAR */
+.toolbar-cus {
+    min-height: auto !important;
+}
+/* END */
+
+/* DROP OR SELECT FILE */
+.preview {
+    align-self: flex-start; 
+    display: flex;
+    width: 530px;
+}
+
+.image {
+    margin: 20px;
+    width: 15%;
+}
+
+.image img {
+    width: 70px;
+    height: 50px;
+}
+
+.content-modal {
+    padding-top: 35px;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    color: black;
+    width: 61%;
+}
+
+.iconCancle {
+    padding-top: 35px;
+    padding-left: 50px;
+    width: 7%;
+}
+/* END */
+
+/* .dataTables_wrapper .table thead tr th:nth-child(1),
+.dataTables_wrapper .table tbody tr td:nth-child(1)
+{
+  display: none;
+ }  */
+
+/* .cell-head:nth-child(2),
+.cell-body:nth-child(2) {
+     display: none;
+ }
+
+.cell-head:nth-child(1),
+.cell-body:nth-child(1) {
+     display: none;
+ } */
